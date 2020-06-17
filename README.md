@@ -1,7 +1,7 @@
 # BA3_Stat-multi_Projet
 
-Examen de statistiques multidimensionnelles.
-BAB3 Informatique
+Examen de statistiques multidimensionnelles. 
+BAB3 Informatique. 
 Jeudi 19 juin 2020 – Prof. M. VOUE
 
 L’évaluation se fera sur la base suivante :
