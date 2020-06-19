@@ -2,8 +2,8 @@
 \contentsline {section}{\numberline {2}Analyse univariée des données}{3}%
 \contentsline {section}{\numberline {3}ACP}{5}%
 \contentsline {section}{\numberline {4}Classification}{10}%
-\contentsline {subsection}{\numberline {4.1}Conclusion}{11}%
-\contentsline {section}{\numberline {5}CLARA (Clustering LARge Applications}{12}%
-\contentsline {subsubsection}{\numberline {5.0.1}Méthode k-medoid en quelques mots}{12}%
-\contentsline {subsection}{\numberline {5.1}Description de l'algorithme}{12}%
-\contentsline {subsection}{\numberline {5.2}Exemple}{13}%
+\contentsline {section}{\numberline {5}Conclusion}{11}%
+\contentsline {section}{\numberline {6}CLARA (Clustering LARge Applications}{12}%
+\contentsline {subsection}{\numberline {6.1}Méthode k-medoid en quelques mots}{12}%
+\contentsline {subsection}{\numberline {6.2}Description de l'algorithme}{12}%
+\contentsline {subsection}{\numberline {6.3}Exemple}{13}%

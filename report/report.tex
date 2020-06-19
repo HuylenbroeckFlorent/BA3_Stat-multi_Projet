@@ -127,7 +127,7 @@ La fonction $kmean$ appliquée sur nos composantes nous permet d'obtenir une cla
 \includegraphics[scale=1]{class.png}
 \caption{Classification obtenue avec la méthode $kmeans$ pour $k=3$}
 \end{figure}
-\subsection{Conclusion}
+\section{Conclusion}
 L'analyse en compsante principales nous a permis de réduire la dimension de nos données de 8 à 4 en conservant $\approx 90\% $ de l'information. Nous avons ensuite appliqué un algorithme de \emph{k-means clustering} afin de classifier nos données. Il est compliqué de discuter de la cohérence de cette classification étant donné l'aspect aléatoire et la similarité de nos variables dans le jeu de données originel. 
 \newpage
 \section{CLARA (Clustering LARge Applications}
@@ -135,7 +135,7 @@ L'analyse en compsante principales nous a permis de réduire la dimension de nos
 Le \emph{clustering} (regroupement) d'un ensemble d'objets avec CLARA se fait en deux étapes. Premièrement, un échantillon est pioché aléatoirement dans l'ensemble des objets et regroupé en $k$ sous-ensembles en utilisant la méthode $k$-$medoid$, qui donne aussi $k$ objets représentatifs.\\
 Ensuite, chaque objet n'appartenant pas a l'échantillon est affecté au plus proche des $k$ objets représentatifs. De cette façon, on obtient un clustering de l'ensemble des données. Une mesure de la qualité de ce clustering est obtenue en calculant la distance moyenne entre chaque objet de l'ensemble des données et de son objet représentatif. Apres avoir pioché aléatoirementf et regroupé 5 échantillons, celui qui a la plus petite distance moyenne est séléctionné.
 
-\subsubsection{Méthode k-medoid en quelques mots}
+\subsection{Méthode k-medoid en quelques mots}
 L'algorithme $k-medoid$ est une approche de clustering utilisée pour partitionner un ensemble de données en $k$ groupes ou clusters. Dans cette méthode, chaque cluster est représenté par un seul point de donnée du cluster. Ce point est ce que l'on appelle le $medoid$.\\
 Le terme medoid fait référence à un objet à l'intérieur du cluster pour lequel la dissimilitude moyenne entre ce point et tous les autres points du cluster est minimale. Il s'agit du point le plus au centre du cluster. Les medoids peuvent être considérés comme un exemple représentatif des membres de ce cluster.
 Cette méthode est aussi appelée $PAM$ (Partioning Around Medoids).\\
