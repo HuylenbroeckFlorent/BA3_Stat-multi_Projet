@@ -17,7 +17,7 @@ BOSSART Laurent}
 \tableofcontents
 \newpage
 \section{Introduction}
-Dans le cadre de notre cours de statistique multidimensionnelle il nous a été demandé de, sur base d'un fichier de donnée nommé \emph{XXData}.
+Dans le cadre de notre cours de statistique multidimensionnelle il nous a été demandé de, sur base d'un fichier de donnée nommé \emph{XXData} :
 \begin{itemize}
 \item Effectuer une analyse univariée des données.
 \item Effectuer une ACP et en discuter les résultats.
@@ -26,7 +26,7 @@ Dans le cadre de notre cours de statistique multidimensionnelle il nous a été 
 Pour cela, nous allons utiliser le langage de programmation \emph{R} via l'outil \emph{RStudio}.\\
 Il nous a aussi été demandé de présenter une technique d'analyse multivariée non vue en cours : \emph{CLARA} (Clustering Large Applications) et d'en décrire un exemple en R.
 \section{Analyse univariée des données}
-Pour commencer l'analyse de nos données, commencons par jeter un oeil au fichier de donnée en utilisant la fonction \emph{head} de R.
+Pour commencer l'analyse de nos données, commencons par jeter un oeil au fichier de données en utilisant la fonction \emph{head} de R.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=.75]{head.png}
@@ -51,14 +51,14 @@ La fonction $summary$ nous donne plus d'informations :
 Pour finir, un dernier appel à la fonction $nrow$ nous indique qu'il y a 128 individus dans XXData.
 \newpage
 \section{ACP}
-Le but de l'ACP (\emph{Analyse en composantes principales}) est de réduire le nombre de variable tout en conservant au maximum l'information.\\
+Le but de l'ACP (\emph{Analyse en composantes principales}) est de réduire le nombre de variables tout en conservant au maximum l'information.\\
 Pour commencer, malgré que toutes nos données aient la même unité (pas d'unité) et le même intervalle de valeurs, nous allons les centrer et réduire :
 \begin{figure}[H]
 \centering
 \includegraphics[scale=1]{boxplotCR.png}
 \caption{Boxplots des données centrées et réduites.}
 \end{figure}
-Nous allons maintenant nous intéresser à la matrice de corrélation de nos variables. La diagonalisation de cette matrice nous permettra de définir le nombre de composantes à conserver.\begin{figure}[H]
+\noindent Nous allons maintenant nous intéresser à la matrice de corrélation de nos variables. La diagonalisation de cette matrice nous permettra de définir le nombre de composantes à conserver.\begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{cor.png}
 \caption{Matrice de corrélation obtenue via la fonction $cor$}
